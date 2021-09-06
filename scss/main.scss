@@ -1,0 +1,24 @@
+// Порядок файлів у scss===>>>
+// Utils
+// Base
+// Components
+// layout
+// Pages
+// Themes
+// Vendors
+
+@import "utils/mixins";
+@import "utils/variables";
+
+@import "base/normalize";
+
+@import "components/head";
+
+@import "layout/container";
+@import "layout/navigation";
+@import "layout/page-header";
+@import "layout/section";
+
+@import "pages/main";
+@import "pages/portfolio";
+@import "pages/contacts";
