@@ -1,3 +1,13 @@
+.box-button {
+  display: flex;
+  justify-content: center;
+}
+
+.button-number {
+  width: 100px;
+  outline: red;
+}
+
 .box {
   display: flex;
   flex-direction: row;
